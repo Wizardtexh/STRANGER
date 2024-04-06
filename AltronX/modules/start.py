@@ -8,11 +8,11 @@ PythonButton = [
         Button.inline("⚡️𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦⚡️", data="help_back")
         ],
         [
-        Button.url("⚡️𝗖𝗛𝗔𝗡𝗡𝗘𝗟⚡️", "https://t.me/TMN_NETWORK"),
-        Button.url("⚡️𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡️", "https://t.me/gabbar_spam")
+        Button.url("⚡️𝗖𝗛𝗔𝗡𝗡𝗘𝗟⚡️", "https://t.me/monstarqueen"),
+        Button.url("⚡️𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡️", "https://t.me/monstarlove")
         ],
         [
-        Button.url("⚡️🚬『☠︎︎ 𝗚𝗔𝗕𝗕𝗔𝗥 ✞︎ⁱˢ 𝗕 ᵃᶜ𝗞 ☠︎︎ 』⚡️", "https://t.me/ll_GaBBaR_DaDdY_ll")
+        Button.url("⚡️𝗠𝗢𝗡𝗦𝗧𝗘𝗥⚡️", "https://t.me/MONSTER_TERA_BAAP1")
         ]
         ]
 
@@ -34,11 +34,11 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**𝗛𝗘𝗬 [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝗜 𝗔𝗠  [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **✦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗 𝗕𝗬 :~ [🚬『☠︎︎ 𝗚𝗔𝗕𝗕𝗔𝗥 ✞︎ⁱˢ 𝗕 ᵃᶜ𝗞 ☠︎︎ 』](https://t.me/ll_GaBBaR_DaDdY_ll)**\n\n"
-        TEXT += f"» **🚬『☠︎︎ 𝗚𝗔𝗕𝗕𝗔𝗥 ✞︎ⁱˢ 𝗕 ᵃᶜ𝗞 ☠︎︎ 』 𝗦𝗣𝗔𝗠 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `3.2`\n"
+        TEXT += f"» **✦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗 𝗕𝗬 :~ [𝗠𝗢𝗡𝗦𝗧𝗘𝗥](https://t.me/MONSTER_TERA_BAAP1)**\n\n"
+        TEXT += f"» **𝗠𝗢𝗡𝗦𝗧𝗘𝗥 𝗦𝗣𝗔𝗠 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `3.2`\n"
         TEXT += f"» **𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                "https://graph.org/file/8a53ba18edf65f81eacee.jpg",
+                "https://telegra.ph/file/f508df63e847cf4673281.jpg",
                 caption=TEXT, 
                 buttons=PythonButton)
