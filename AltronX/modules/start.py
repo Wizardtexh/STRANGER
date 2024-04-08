@@ -8,11 +8,11 @@ PythonButton = [
         Button.inline("⚡️𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦⚡️", data="help_back")
         ],
         [
-        Button.url("⚡️𝗖𝗛𝗔𝗡𝗡𝗘𝗟⚡️", "https://t.me/monstarqueen"),
-        Button.url("⚡️𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡️", "https://t.me/monstarlove")
+        Button.url("⚡️𝗖𝗛𝗔𝗡𝗡𝗘𝗟⚡️", "https://t.me/naksh_accounts"),
+        Button.url("⚡️𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡️", "https://t.me/mysterious_chatzz")
         ],
         [
-        Button.url("⚡️𝗠𝗢𝗡𝗦𝗧𝗘𝗥⚡️", "https://t.me/MONSTER_TERA_BAAP1")
+        Button.url("⚡️𝗕𝗘𝗦𝗧 𝗖𝗢𝗗𝗘𝗥🥶⚡️", "https://t.me/naksh_vai")
         ]
         ]
 
@@ -34,11 +34,11 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**𝗛𝗘𝗬 [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝗜 𝗔𝗠  [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **✦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗 𝗕𝗬 :~ [𝗠𝗢𝗡𝗦𝗧𝗘𝗥](https://t.me/MONSTER_TERA_BAAP1)**\n\n"
-        TEXT += f"» **𝗠𝗢𝗡𝗦𝗧𝗘𝗥 𝗦𝗣𝗔𝗠 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `3.2`\n"
+        TEXT += f"» **✦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗 𝗕𝗬 :~ [𝗕𝗘𝗦𝗧 𝗖𝗢𝗗𝗘𝗥🥶](https://t.me/naksh_vai)**\n\n"
+        TEXT += f"» **Cᴏᴅɪɴɢ Jᴀᴋᴇ SɪᴋʜO Pᴇʜʟᴇ Pᴀᴘᴀ Sᴇ :** `3.2`\n"
         TEXT += f"» **𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                " https://telegra.ph/file/f508df63e847cf4673281.jpg",
+                " https://telegra.ph/file/ecd9133dc103e01296876.jpg",
                 caption=TEXT, 
                 buttons=PythonButton)
