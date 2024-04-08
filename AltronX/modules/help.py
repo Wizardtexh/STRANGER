@@ -2,7 +2,7 @@ from config import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_USERS
 from telethon import events, Button
 
 
-PythonHelp = f"⚡️ 𝐌𝐎𝐍𝐒𝐓𝐄𝐑 𝗦𝗣𝗔𝗠 𝙃𝗘𝗟𝗣 𝙈𝗘𝗡𝗨 ⚡️\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @MONSTER_TERA_BAAP1**"
+PythonHelp = f"⚡️ CODER 𝗦𝗣𝗔𝗠 𝙃𝗘𝗟𝗣 𝙈𝗘𝗡𝗨 ⚡️\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @MONSTER_TERA_BAAP1**"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -29,8 +29,8 @@ async def help(event):
             Button.inline("⚡️ ᴇxᴛʀᴀ ⚡️", data="extra"),
            ],
            [    
-            Button.url("⚡️ ᴄʜᴀɴɴᴇʟ ⚡️", "https://t.me/monsterlove"),
-            Button.url("⚡️ sᴜᴘᴘᴏʀᴛ ⚡️", "https://t.me/monsterqueen")
+            Button.url("⚡️ ᴄʜᴀɴɴᴇʟ ⚡️", "https://t.me/naksh_accounts"),
+            Button.url("⚡️ sᴜᴘᴘᴏʀᴛ ⚡️", "https://t.me/mysterious_chatzz")
            ],
            ],
            )
@@ -86,7 +86,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @ll_GaBBaR_DaDdY_ll**
+**© @naksh_vai**
 """
 
 spam_msg = f"""
@@ -130,13 +130,13 @@ async def helpback(event):
             Button.inline("⚡️ ᴇxᴛʀᴀ ⚡️", data="extra"),
            ],
            [
-            Button.url("⚡️ ᴄʜᴀɴɴᴇʟ ⚡️", "https://t.me/monsterlove"),
-            Button.url("⚡️ sᴜᴘᴘᴏʀᴛ ⚡️", "https://t.me/monsterqueen")
+            Button.url("⚡️ ᴄʜᴀɴɴᴇʟ ⚡️", "https://t.me/naksh_accounts"),
+            Button.url("⚡️ sᴜᴘᴘᴏʀᴛ ⚡️", "https://t.me/mysterious_chatzz")
            ],
            ],
         )           
    else:
-        await event.answer("𝗣ᴀʜʟᴇ 𝗝ᴀᴀᴋᴇ 𝗣ᴀᴘᴀ 𝗕ᴏ ⚡️𝐌𝐎𝐍𝐒𝐓𝐄𝐑⚡️ 𝗞ᴏ 𝗪ᴏ 𝗧ᴜᴍʜᴇ 𝗦ᴜᴅᴏ 𝗗ᴇ 𝗗ᴇɢᴀ", cache_time=0, alert=True)
+        await event.answer("𝗣ᴀʜʟᴇ 𝗝ᴀᴀᴋᴇ 𝗣ᴀᴘᴀ 𝗕ᴏ ⚡️NAKSH⚡️ 𝗞ᴏ 𝗪ᴏ 𝗧ᴜᴍʜᴇ 𝗦ᴜᴅᴏ 𝗗ᴇ 𝗗ᴇɢᴀ", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"spam"))
@@ -155,7 +155,7 @@ async def help_spam(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             ) 
    else:
-        await event.answer("𝗣ᴀʜʟᴇ 𝗝ᴀᴀᴋᴇ 𝗣ᴀᴘᴀ 𝗕ᴏʟ ⚡️𝐌𝐎𝐍𝐒𝐓𝐄𝐑⚡️ 𝗞ᴏ 𝗪ᴏ 𝗧ᴜᴍʜᴇ 𝗦ᴜᴅᴏ 𝗗ᴇ 𝗗ᴇɢᴀ", cache_time=0, alert=True)
+        await event.answer("𝗣ᴀʜʟᴇ 𝗝ᴀᴀᴋᴇ 𝗣ᴀᴘᴀ 𝗕ᴏʟ ⚡️NAKSH⚡️ 𝗞ᴏ 𝗪ᴏ 𝗧ᴜᴍʜᴇ 𝗦ᴜᴅᴏ 𝗗ᴇ 𝗗ᴇɢᴀ", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"raid"))
@@ -174,7 +174,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )  
      else:
-        await event.answer("𝗣ᴀʜʟᴇ 𝗝ᴀᴀᴋᴇ 𝗣ᴀᴘᴀ 𝗕ᴏʟ ⚡️𝐌𝐎𝐍𝐒𝐓𝐄𝐑⚡️ 𝗞ᴏ 𝗪ᴏ 𝗧ᴜᴍʜᴇ 𝗦ᴜᴅᴏ 𝗗ᴇ 𝗗ᴇɢᴀ", cache_time=0, alert=True)
+        await event.answer("𝗣ᴀʜʟᴇ 𝗝ᴀᴀᴋᴇ 𝗣ᴀᴘᴀ 𝗕ᴏʟ ⚡️NAKSH⚡️ 𝗞ᴏ 𝗪ᴏ 𝗧ᴜᴍʜᴇ 𝗦ᴜᴅᴏ 𝗗ᴇ 𝗗ᴇɢᴀ", cache_time=0, alert=True)
 
 
 @MK1.on(events.CallbackQuery(pattern=r"extra"))
@@ -193,4 +193,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
    else:
-        await event.answer("𝗣ᴀʜʟᴇ 𝗝ᴀᴀᴋᴇ 𝗣ᴀᴘᴀ 𝗕ᴏʟ ⚡️𝐌𝐎𝐍𝐒𝐓𝐄𝐑⚡️ 𝗞ᴏ 𝗪ᴏ 𝗧ᴜᴍʜᴇ 𝗦ᴜᴅᴏ 𝗗ᴇ 𝗗ᴇɢᴀ", cache_time=0, alert=True)
+        await event.answer("𝗣ᴀʜʟᴇ 𝗝ᴀᴀᴋᴇ 𝗣ᴀᴘᴀ 𝗕ᴏʟ ⚡️NAKSH⚡️ 𝗞ᴏ 𝗪ᴏ 𝗧ᴜᴍʜᴇ 𝗦ᴜᴅᴏ 𝗗ᴇ 𝗗ᴇɢᴀ", cache_time=0, alert=True)
